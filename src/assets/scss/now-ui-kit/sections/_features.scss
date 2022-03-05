@@ -1,0 +1,65 @@
+.features-5{
+    .info{
+        max-width: none;
+        margin: 0 auto;
+        padding: 10px 0 0px;
+    }
+    .phone-container{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+
+.features-6{
+    .phone-container{
+        max-width: 260px;
+        margin: 60px auto 0;
+    }
+    .info{
+        max-width: none;
+        margin: 0 auto;
+        padding: 10px 0 0px;
+    }
+    .info:first-child{
+        padding-top: 130px;
+    }
+}
+
+.features-8{
+
+    .title + .description{
+        margin-bottom: 70px;
+    }
+
+    overflow: hidden;
+
+    .info-title{
+
+    }
+    .info-horizontal{
+        padding: 15px 0 0;
+
+        &:first-child{
+            padding-top: 45px;
+        }
+    }
+
+    .image-container{
+        max-width: 1200px;
+        position: relative;
+        height: 550px;
+        margin-top: 58px;
+
+        img{
+            max-width: 1200px;
+            left: 100px;
+            top: 0;
+            height: 100%;
+            position: absolute;
+        }
+    }
+}
+
+.tablet-container{
+    margin-top: 40px;
+}
