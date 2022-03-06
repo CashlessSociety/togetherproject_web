@@ -15,10 +15,10 @@ function Why() {
             <div>
               <h3 className="info-title">The "Anti Social Network.." Huh?</h3>
               <p className="lead">
-                Going on aocial media today is like getting in a spaceship with nobody in the drivers seat - except there's a monkey messing around with the controls inside of your brain. 
+                Going on social media today is like getting in a spaceship with nobody in the drivers seat - except for the monkey messing around with the controls inside  your brain. 
               </p>
               <p className="lead">
-               It might be fun for a bit, but we all know how it's going to end. Not well for anyone - except maybe the monkey.
+               It might be fun for a bit, but we all know how it's going to end. Not well for anyone except the monkey.
               </p>
               <p className="lead">
                 We're not even trying to 'fix' social media but it is our belief that we can build a bunch of really useful tools in a somewhat adjacent space. That is, exchanges of value on the social graph - mediated, not by trivialities, but by <b>real world connections</b> and expressions of gratitude for <b>real world exchanges of value</b>.
