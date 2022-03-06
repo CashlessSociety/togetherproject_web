@@ -38,7 +38,7 @@ function NetworkHeader() {
               muted="muted" 
               loop="loop"
               poster={require("assets/img/video_cover_min.png")} >
-            <source src={require("assets/img/pexels-rodnae-productions-8474638.mp4")} type="video/mp4" />
+            <source src={require("assets/img/output.mp4")} type="video/mp4" />
             <source src={require("assets/img/output.webm")} type="video/webm" />
             <source src={require("assets/img/output.ogv")} type="video/ogg" />
           </video>
