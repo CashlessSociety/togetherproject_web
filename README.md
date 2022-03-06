@@ -21,9 +21,9 @@
 
 We are using avataaars from https://avataaars.com
 
-There is a sketch file, which (if you download and install sketch) can be used to tweak the images used. 
+There is a sketch file, which (if you download and install sketch) can be used to add/remove or update avataaar images.
 
-Or you can tweak things in [this sketch file](https://sketch.com/s/ddf3016e-b669-4d6e-93f1-72e7f82533b7) if you have the permissions etc
+Or if you wanna just tweak things you can (maybe) start with[this sketch file](https://sketch.com/s/ddf3016e-b669-4d6e-93f1-72e7f82533b7).. if you have the permissions etc
 
 ## Prerequsites 
 
