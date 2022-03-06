@@ -7,8 +7,7 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container,
-  UncontrolledTooltip,
+  Container
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -55,7 +54,7 @@ function IndexNavbar() {
                   .scrollIntoView();
               }}
             >
-              <img src={require("assets/img/together_logo_maybe_white.png")} alt="Together Logo" /> Together Project
+              <img src={require("assets/img/x_logo_black.png")} alt="Together Logo" /> Together Project
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
@@ -78,14 +77,24 @@ function IndexNavbar() {
           >
             <Nav navbar>
 
-              
+                            
+             <NavItem>
+                <NavLink
+                  href="#contributors" onClick={(e) => {
+                    document.getElementById("video-header").scrollIntoView();
+                    document.documentElement.classList.toggle("nav-open");
+                  }}>
+                  What
+                </NavLink>
+              </NavItem>
+
               <NavItem>
                 <NavLink
                   href="#contributors" onClick={(e) => {
                     document.getElementById("contributors").scrollIntoView();
                     document.documentElement.classList.toggle("nav-open");
                   }}>
-                  Contributors
+                  Who
                 </NavLink>
               </NavItem>
 

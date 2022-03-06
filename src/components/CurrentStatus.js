@@ -37,15 +37,6 @@ function CurrentStatus() {
                 <li>Finding a bigger founding team.</li>
                 <li>Geting the word out (what this is)</li>
               </ul>
-
-              <p>
-                We'd like your help! 
-              </p>
-              <ul>
-                <li>As an open source project we're always open to contributions but we're very much looking to carefully expand our team with the right contributors right now.</li>
-              </ul>
-
-      
       
             </Col>
             <Col md={4} className="pt-5">

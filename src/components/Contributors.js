@@ -13,8 +13,8 @@ function Contributors() {
 
           <Row>
             <Col md="12">
-              <h3 className="title text-center">Who are we?</h3>
-              <p>At a time of global instability it's nice to see people hailing from such diverse locations coming together to build togetherness.</p>
+              <h3 className="title text-center">Contributors</h3>
+              <p>At a time of scary global instability it's nice to see people hailing from four different continents coming together to build togetherness. The contributors <b>so far</b> are as follows.</p>
             </Col>
           </Row>    
           <Row>
@@ -35,10 +35,10 @@ function Contributors() {
                 }
                 bioLinks={
                   <>
-                    <a href="https://github.com/utunga" target="_blank">
+                    <a href="https://github.com/utunga" rel="noopener noreferrer" target="_blank">
                       <i className="fab fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com/in/milesthompson" target="_blank">
+                    <a href="https://linkedin.com/in/milesthompson" rel="noopener noreferrer" target="_blank">
                       <i className="fab fa-linkedin"></i>
                     </a>
                   </>
@@ -61,11 +61,8 @@ function Contributors() {
                 }
                 bioLinks={
                   <>
-                    <a href="https://github.com/utunga" target="_blank">
+                    <a href="https://github.com/diam0s" rel="noopener noreferrer" target="_blank">
                       <i className="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/milesthompson" target="_blank">
-                      <i className="fab fa-linkedin"></i>
                     </a>
                   </>
                 }
@@ -91,7 +88,7 @@ function Contributors() {
                 flipProfileUrl={require("assets/img/preston_img.jpg")}
                 bioLinks={
                   <>
-                    <a href="https://www.xchc.co.nz/team" target="_blank">
+                    <a href="https://www.xchc.co.nz/team" rel="noopener noreferrer" target="_blank">
                       <i className="fab fa-web"></i>
                     </a>
                   </>
@@ -114,8 +111,11 @@ function Contributors() {
                 now="Qingdao, China"
                 bioLinks={
                   <>
-                    <a href="https://www.xchc.co.nz/team" target="_blank">
-                      <i className="fab fa-web"></i>
+                    <a href="https://github.com/mjxchina" rel="noopener noreferrer" target="_blank">
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jinxin-ma/" rel="noopener noreferrer" target="_blank">
+                      <i className="fab fa-linkedin"></i>
                     </a>
                   </>
                 }

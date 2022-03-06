@@ -118,7 +118,12 @@ a {
 
 .description { color: $light-black}
 
-.info-title { font-weight: $font-weight-bold;}
+.info-title {
+  font-weight: $font-weight-bold;
+}
+h3.info-title {
+  margin-top: 1.5em;
+}
 .icon > img {
   position: absolute;
   left: 50%;
@@ -154,6 +159,13 @@ a {
       height: 80px;
       margin-top:80px;
       font-size: 1.4em;
+    } 
+
+    h3 {
+      a {
+        color:wheat;
+        text-decoration: underline !important;
+      }
     }
 
     .page-header-video  {
@@ -397,13 +409,18 @@ a {
 
 .get_involved {
 
-  .cta_button {
-    display:block;
-    text-align:center;
-    max-width: 300px;
-    margin: 10px 0 5px 0;
-    font-size: 1.2em;
-    color: white !important;
+  // .cta_button {
+  //   display:block;
+  //   text-align:center;
+  //   max-width: 300px;
+  //   margin: 10px 0 5px 0;
+  //   font-size: 1.2em;
+  //   color: white !important;
+  // }
+
+  .typeform_widget {
+    width:  100%;
+    height: 400px    
   }
 }
 
@@ -434,6 +451,10 @@ a {
   .contributor-bio {
     padding: $padding-base-vertical $padding-base-vertical 0;
     text-align: center;
+    margin-top: 1.5em;
+    @include md {
+      margin-top: inherit;
+    }
     a { color: inherit;}
   }
 
@@ -443,7 +464,7 @@ a {
   
   .contributor-from {
     padding: $padding-base-vertical $padding-base-vertical 0;
-    font-size: .5em ;
+    font-size: .6em ;
     display: flex;
     justify-content: center;
     width:100%;

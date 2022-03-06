@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Card, CardBody, Button, Container, Row, Col } from "reactstrap";
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -11,9 +11,18 @@ function GetInvolved() {
       <div id="get-involved" className="get_involved">
         <div className="py-5 my-5">
           <Container>
-            <h2 className="title text-center">Is this for you?</h2>
+            <h2 className="title text-center">Get involved</h2>
             <Row>
               <Col lg="6">
+                <p>
+                  We'd love your help! 
+                </p>
+                <p>
+                  As an open source project we're always open to contributions but we're very much looking to expand our team with the right contributors right now.
+                </p>
+                <p>
+                  You can start by cloing the <a href="https://github.com/CashlessSociety/together_app">project source</a> and looking for some good first issues, or, if you prefer why not get in touch with us first using the typeform below...
+                </p>
                 
                   {/* <div className=" text-left">
                     <img alt="future" src={require("assets/img/future.png")}></img>
@@ -42,11 +51,8 @@ function GetInvolved() {
               <Col>
                 <Card>
                   <CardBody className="p-4">
-                     <p>If you can get behind the above principles and want to change the future, let us know </p>
-                      <a className="btn-large  btn-round btn-success cta_button" href="https://mp72k7t29rj.typeform.com/to/GfVdv7Uz">
-                          <i className="now-ui-icons ui-2_favourite-28"></i>&nbsp;
-                          Yes, I'm interested !
-                      </a>
+                         <div className="typeform_widget" data-tf-widget="zeWWyNdY"
+                          data-tf-iframe-props="title=Together Project Get Involved" data-tf-medium="snippet"></div><script src="//embed.typeform.com/next/embed.js"></script>
                   </CardBody>
                 </Card>
               </Col>
