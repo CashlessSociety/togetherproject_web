@@ -2,11 +2,12 @@
   "name": "togetherproject-web",
   "version": "1.4.0",
   "private": true,
-   "engines" : { 
-    "npm" : ">=6.14.13",
-    "node" : ">=14.17.0"
+  "engines": {
+    "npm": ">=6.14.13",
+    "node": ">=14.17.0"
   },
   "dependencies": {
+    "@typeform/embed-react": "^1.9.0",
     "moment": "2.26.0",
     "node-sass": "4.14.1",
     "nouislider": "14.5.0",

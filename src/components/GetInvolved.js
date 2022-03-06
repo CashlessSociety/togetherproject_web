@@ -2,6 +2,8 @@ import React from "react";
 
 // reactstrap components
 import { Card, CardBody, Container, Row, Col } from "reactstrap";
+import { createWidget } from '@typeform/embed'
+import '@typeform/embed/build/css/widget.css'
 
 // core components
 
@@ -51,8 +53,7 @@ function GetInvolved() {
               <Col>
                 <Card>
                   <CardBody className="p-4">
-                         <div className="typeform_widget" data-tf-widget="zeWWyNdY"
-                          data-tf-iframe-props="title=Together Project Get Involved" data-tf-medium="snippet"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                    <div data-tf-widget="zeWWyNdY" data-tf-iframe-props="title=Get Involved with the Together Project" data-tf-medium="snippet" style={{width:'100%',height:'400px'}}></div><script src="//embed.typeform.com/next/embed.js"></script> 
                   </CardBody>
                 </Card>
               </Col>
