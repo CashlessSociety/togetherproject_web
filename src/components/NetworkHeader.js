@@ -48,7 +48,7 @@ function NetworkHeader() {
             <div className="col-lg-2 col-md-2"></div>
             <div className="col-lg-8 col-md-8 overlay_panel">
                   <h1 className="title">The Together Project</h1>
-                  <h3>We're building the <b><a href="#why">anti&nbsp;social&nbsp;network&nbsp;*</a></b> - an open-source platform to connect&nbsp;
+                  <h3>We're building an open-source platform to connect&nbsp;
                   <b>real</b> people working on <b>real</b> projects in the <b>real</b> world.
                   </h3>
             </div>
