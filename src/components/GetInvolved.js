@@ -2,7 +2,6 @@ import React from "react";
 
 // reactstrap components
 import { Card, CardBody, Container, Row, Col } from "reactstrap";
-import { createWidget } from '@typeform/embed'
 import '@typeform/embed/build/css/widget.css'
 
 // core components
@@ -15,46 +14,32 @@ function GetInvolved() {
           <Container>
             <h2 className="title text-center">Get involved</h2>
             <Row>
-              <Col lg="6">
-                <p>
-                  We'd love your help! 
+              <Col lg="1"></Col>
+              <Col lg="10">
+                <p>We're always open to new contributions but <b>right now we especially want to understand the problem space better</b> so we're looking for:
                 </p>
-                <p>
-                  As an open source project we're always open to contributions but we're very much looking to expand our team with the right contributors right now.
+                <ul>
+                <li><b>Artists</b> and creatives willing to work closely with us to explain your needs and help guide the creation of a platform that is most useful to you
+                </li>
+                <li><b>Designers</b> and developers who can help understand and capture those needs in user experience form - as mockups, figma designs and code.
+                </li>
+                <li><b>Beta testers</b> from XCHC who can help us test the project once it goes live.
+                </li>
+                </ul>
+                <p>If you are any of the above or just interested in this project please let us know and we'll get in touch. 
                 </p>
-                <p>
-                  You can start by cloing the <a href="https://github.com/CashlessSociety/together_app">project source</a> and looking for some good first issues, or, if you prefer why not get in touch with us first using the typeform below...
-                </p>
-                
-                  {/* <div className=" text-left">
-                    <img alt="future" src={require("assets/img/future.png")}></img>
-                    <h5 className="info-title font-weight-bold">Yes - let's work together!</h5>
-                    <p>
-                    The above is a summary of the work so far. But there are many ways to enable peer-to-peer mutual credit. You may already be working on another related project. Let's not work in isolation! At this stage we are open to  contributions and partnerships that take us in new directions as far as product design goes. Just so long as we are all working on solving mutual credit within the "boundaries of collaboration" described below (or to the right) then we want to hear from you.     
-                    </p>
-                    <p>Right now we're expanding our list of advisors through private contacts. We also especially want to hear from potential collaborators if you think you might be able to:</p>
-                    <ul>
-                      <li>Help us design our the fundamentals of our token issuance and DAO founding documents.</li>
-                       <li>Help us build healthy processes that recognize and value our contributors within a DAO context.</li>
-                      <li>Help us design the front end experience and/or build code and smart contracts in React, Rust, Holochain/SSB or NodeJs</li>
-                      <li>Help us with the protocol, whitepaper and  simulations.</li>
-                      <li>Be a pilot community and connect us to real world people and real world needs.</li>                  
-                    </ul>
-                    <p>Contributors will earn tokens that convey governance voting rights as well as a share in future profits of our DAO, as explained in <a href="https://mutualaidworld.gitbook.io/cashless/">our contributors handbook</a>.  
-                    </p>
-                  </div> */}
-                
+                <p>As an open source project, you're also always welcome to take this project in whatever direction interests you. Feel free to clone the project source and make your own changes. Or if you wish, find a 'a good first issue' and get coding. 
+                </p>                
               </Col>
-              <Col lg="5" className="offset-lg-1">
-                
-              </Col>
+              <Col lg="1"></Col>
             </Row>
             <Row>
               <Col>
                 <Card>
                   <CardBody className="p-4">
-                    <div data-tf-widget="zeWWyNdY" data-tf-iframe-props="title=Get Involved with the Together Project" data-tf-medium="snippet" style={{width:'100%',height:'400px'}}></div><script src="//embed.typeform.com/next/embed.js"></script> 
-                  </CardBody>
+
+                    <div data-tf-widget="zeWWyNdY" data-tf-iframe-props="title=Together Project" data-tf-medium="snippet" style={{"width":"100%","height":"400px"}}></div>
+                   </CardBody>
                 </Card>
               </Col>
             </Row>

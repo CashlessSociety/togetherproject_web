@@ -18,24 +18,19 @@ function CurrentStatus() {
               <ul>
                 <li>A vision of what we're building</li>
                 <li>A community that wants this</li>
-                <li>A small budget to put towards making this happen</li>
-                <li>Some personas and an analysis of their pain points</li>
-                <li>A set of wireframes</li>
-                <li>An incomplete set of higher fidelity mockups</li>
-                <li>An archictecture with a roadmap towards an exciting much more decentralized version</li>
-                <li>The start of a flutter mobile app</li>
-                <li>The start of a group of people who want to build it</li>
+                <li>Some <a href={require("assets/img/XCHC_Together_User_Personas.pdf")}>user personas</a> and an analysis of pain points</li>
+                <li>Wireframes and the start of some <a href={require("assets/img/figma_mocks.png")}>higher fidelity mockups</a> in figma</li>
+                <li><a href="https://github.com/CashlessSociety/together_app/">Source code</a> for a flutter  <a href={require("assets/img/start_app.png")}>mobile app</a>.</li>
+                <li>An archictecture and the <a href="https://github.com/CashlessSociety/cashless-ui/tree/main/server">start of some code</a> taking us rapidly towards a more autonomous, decentralized version based on <a href="https://scuttlebutt.nz/docs/protocol/">secure scuttlebutt</a>.</li>
               </ul>
             
               <p>
                 We're working on:
               </p>
               <ul>
-                <li>Completing the mobile app</li>
-                <li>Recruiting, especially for designers who might be able to help.</li>
-                <li>Figuring out the lower level  protocol details, white paper and simulations.</li>
-                <li>Finding a bigger founding team.</li>
-                <li>Geting the word out (what this is)</li>
+                <li>Finishing our initial beta and getting feedback and testing.</li>
+                <li>Figuring out the protocol details, future technical roadmap, and white paper.</li>
+                <li>Getting the word out and growing the energy. Why not join us?</li>
               </ul>
       
             </Col>

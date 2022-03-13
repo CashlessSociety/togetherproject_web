@@ -11,19 +11,30 @@ function Why() {
     <div id="why" className="features-8 custom-features bg-sunset">
       <Container>
         <Row>
+         <Col md={4} className="order-md-first">
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_fjv8qxqn.json"  background="transparent"  speed="0.6"  style={{width: "100%", height: "auto"}}  loop  autoplay></lottie-player>
+          </Col>
+          <Col md={8}>
+              <div>
+              <h3 className="info-title">A "network-level" experiment</h3>
+              <p className="lead">
+               This project is an experiment and a collaboration - at a network level. Cashless as a project is keen to understand the user experience around real world acknowledgements and  value. Working together with the folks at XCHC our collective objective is to design and create a user experience that can become a useful tool for bringing amazing people together to do awesome things. 
+              </p>
+            </div>
+          </Col>
+   
+        </Row> 
+
+        <Row>
           <Col md={7} className="pr-5">
             <div>
-              <h3 className="info-title">The "Anti Social Network.." Huh?</h3>
+              <h3 className="info-title">The 'Anti' Social Network..</h3>
               <p className="lead">
-                Going on social media today is like getting in a spaceship with nobody in the drivers seat - except for the monkey messing around with the controls inside  your brain. 
+                We want to build connection on the real social network. Useful tools connecting real people doing real work together.
               </p>
               <p className="lead">
-               It might be fun for a bit, but we all know how it's going to end. Not well for anyone except the monkey.
+                Online communities, such as Distributed Autonomous Organisations are starting to mediate and organise large sums of money and have real impact. But engaging with most social media spaces - with their likes and emojis and 'upvotes' - is like getting a spaceship with a troupe of drunken monkeys in the driver's seat. It might be fun for a bit, but we all know it's not going to end well for anyone except the monkey.
               </p>
-              <p className="lead">
-                We're not even trying to 'fix' social media but it is our belief that we can build a bunch of really useful tools in a somewhat adjacent space. That is, exchanges of value on the social graph - mediated, not by trivialities, but by <b>real world connections</b> and expressions of gratitude for <b>real world exchanges of value</b>.
-              </p>
-
             </div>
           </Col>
           <Col md={5}>
@@ -31,23 +42,23 @@ function Why() {
               alt="work together"
               src={require("assets/img/clip-brainstorm.png")}
             ></img>
-
           </Col>
         </Row>
         <Row>
-          <Col md={8}>
-              <div>
-              <h3 className="info-title">A "network-level" experiment</h3>
+          <Col md={7} className="pr-5">
+            <div>
+              <h3 className="info-title">Time for a new paradigm.</h3>
               <p className="lead">
-                This project is an experiment. We're not going to get it right the first time, but we aim to do some user experience experiments around the idea of acknwoledging real world value graph <b>first</b>and only bringing it into the online space afterwards. We hope - <b>with help from you</b> - to iteratively, and together, build out a user experience that can actually be a useful tool for bringing people together to do awesome things.  
+                We don't know the exact solution yet but we want to start by acknowledging exchanges of real value in the real world so we can start to make the underlying 'real' social graph visible. 
+              </p>
+              <p className="lead">
+                Our strategy is to start offline first, find the real social graph, and then bring just enough of that online to help people collaborate and then. We'll see what happens..
               </p>
             </div>
           </Col>
-   
-          <Col md={4} className="order-md-first">
-            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_fjv8qxqn.json"  background="transparent"  speed="0.6"  style={{width: "100%", height: "auto"}}  loop  autoplay></lottie-player>
+          <Col md={5}>
           </Col>
-        </Row> 
+        </Row>    
       </Container>
     </div>
   </>

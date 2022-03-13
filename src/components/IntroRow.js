@@ -32,8 +32,9 @@ function IntroRow() {
                 <h4 className="info-title"> A simple app for working together</h4>
                
                   <p className="description">
-                    Find projects or requests you like. Get notified when a request matches
-                    your skills or interests. Gather people to help with your projects!
+                    Find projects that interest you. Be notified when a 
+                     request is relevant to your skills or interests. 
+                     Gather people to help out on your projects! 
                     </p> 
               </div>
             </Col>
@@ -44,8 +45,8 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Making gratitude visible.</h4>
                   <p className="description">
-                  Acknowledgements as a doorway to meaningful belonging. Help new people to 
-                  be visible and core contributors to feel appreciated and reciprocated. 
+                  Acknowledgements as a doorway to meaningful belonging. Helps new people to 
+                   feel visible and helps key contributors feel appreciated and reciprocated. 
                   </p>
               </div>
             </Col>
@@ -57,7 +58,8 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">No to "optimizing engagement"</h4>
                 <p className="description">
-                    Being open source means we're not trying to keep you on the app, we want you out there, engaging with real people doing awesome things. 
+                    Being open source means we're not trying to keep you on the app, we want 
+                     you out there, engaging with real people doing awesome things. 
                 </p>
               </div>
             </Col>

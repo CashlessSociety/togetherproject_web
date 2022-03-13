@@ -54,7 +54,7 @@ function IndexNavbar() {
                   .scrollIntoView();
               }}
             >
-              <img src={require("assets/img/x_logo_black.png")} alt="Together Logo" /> Together Project
+             The Together Project
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"

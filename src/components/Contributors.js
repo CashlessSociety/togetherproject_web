@@ -14,7 +14,7 @@ function Contributors() {
           <Row>
             <Col md="12">
               <h3 className="title text-center">Contributors</h3>
-              <p>At a time of scary global instability it's nice to see people hailing from four different continents coming together to build togetherness. The contributors <b>so far</b> are as follows.</p>
+              <p>At a time of global anxiety, it's refreshing to see people from four different continents coming together to create togetherness. Our key contributors (so far) are:</p>
             </Col>
           </Row>    
           <Row>
@@ -31,7 +31,7 @@ function Contributors() {
                 profileUrl={require("assets/img/miles.png")}
                 flipProfileUrl={require("assets/img/miles_img.jpg")}
                 longBio={
-                  <p>Currently machine learning at <a href="http://papareo.nz">papareo.nz</a>, an Iwi led project focused on indigenous language. Also <a href="http://cashless.social">Cashless.social</a> a decentralized autonomous collective building new forms of resilient, open source, mutual credit. Previously, founding CTO at NY financial research company <a href="https://creditsights.com">CreditSights</a>.</p>
+                  <p>Miles is the co-founder of <a href="http://cashless.social">Cashless</a>, a decentralised autonomous collective building new forms of resilient, open source, mutual credit. He is also AI lead dev at <a href="http://papareo.nz">Papa Reo</a>, an Iwi led project focused on indigenous language. Previously, founding CTO at NY financial research company <a href="https://creditsights.com">CreditSights</a>.</p>
                 }
                 bioLinks={
                   <>
@@ -77,10 +77,12 @@ function Contributors() {
                 name="Preston Hegel"
                 title="Exchange Operator"
                 bio={
-                  <p>Community leader, artist.</p>
+                  <p>Regenerative artist, community builder, experience designer
+                  </p>
                 }
                 longBio={
-                  <p>Hailing from Asheville NC Preston is... </p>
+                  <p>Preston is the steward of <a href="https://www.xchc.co.nz/">XCHC</a>, a Global Shaper, and advisor/collaborator on creative projects across Aotearoa, the US, and the Cook Islands. He's passionate about developing alternative tools and models that enable artists to experiment with culture and have a greater positive influence on society. He's developing these alongside government, technology, and creative agencies.
+                  </p>
                 }
                 init="Asheville, NC, USA"
                 now="Christchurch, NZ"
@@ -100,10 +102,10 @@ function Contributors() {
                 name="Jinxin Ma"
                 title="Flutter App Dev"
                 bio={
-                  <p>Mobile Dev</p>
+                  <p>Mobile Dev, Tech lead at Chatterize</p>
                 }
                 longBio={
-                  <p>Tech lead at chatterize </p>
+                  <p>Previously an English translator, Kane is now a full-stack developer who builds applications for web, mobile, and servers. He's interested in game design and development as well as crypto and smart contracts. He aspires to create something that will bring people closer together and build stable and reliable communities.</p>
                 }
                 profileUrl={require("assets/img/kane.png")}
                 flipProfileUrl={require("assets/img/kane_img.jpg")}
@@ -124,30 +126,6 @@ function Contributors() {
             <Col md="2"></Col>
           </Row>              
         </Container>
-  
-        {/*               
-             <ContributorLarge 
-              name="Karen Lo"
-              title="Designer"
-              bio={
-                <p>Full-Stack UX &amp; Product Designer</p>
-              }
-              longBio={
-                <p>UX/UI systems/platforms designer who's been jamming for the past 10+ years. Taking things from conception to implementation – from big picture to fine details.</p>
-              }
-              profileUrl={'https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Side&eyebrowType=Default&mouthType=Twinkle&skinColor=Light'}
-              flipProfileUrl={require("assets/img/karen_lo.jpg")}
-              bioLinks={
-                <>
-                  <a href="https://linkedin.com/in/lokaren" target="_blank">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                  <a href="https://github.com/karenkun" target="_blank">
-                    <i className="fab fa-github"></i>
-                  </a>
-                </>
-              }
-            /> */}
           
       </div>
     </>

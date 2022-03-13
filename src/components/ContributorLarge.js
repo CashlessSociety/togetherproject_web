@@ -12,7 +12,7 @@ const ContributorLarge = (props) => {
               src={props.profileUrl}
             ></img>
           </div>
-          <div className="contributor-bio">
+          <div className="contributor-bio-front">
             <h6><span className="highlight-underline-primary">{props.name}</span></h6>
             <div className="contributor-short-bio">
               {props.bio}
@@ -40,8 +40,7 @@ const ContributorLarge = (props) => {
               src={flipProfileUrl}
             ></img>
           </div>
-          <div className="contributor-bio">
-            {/* <h6 className="contributor-title">{props.title}</h6> */}
+          <div className="contributor-bio-back">
             <div className="contributor-long-bio">
               {props.longBio}
             </div>
