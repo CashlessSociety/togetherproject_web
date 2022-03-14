@@ -33,7 +33,7 @@ function Why() {
                 We want to build connection on the real social network. Useful tools connecting real people doing real work together.
               </p>
               <p className="lead">
-                Online communities, such as Distributed Autonomous Organisations are starting to mediate and organise large sums of money and have real impact. But engaging with most social media spaces - with their likes and emojis and 'upvotes' - is like getting a spaceship with a troupe of drunken monkeys in the driver's seat. It might be fun for a bit, but we all know it's not going to end well for anyone except the monkey.
+                Online communities, such as Distributed Autonomous Organisations are starting to mediate and organise large sums of money and have real impact. But engaging with most social media spaces - with their likes and emojis and 'upvotes' - is like getting in a spaceship with a troupe of drunken monkeys in the driver's seat. It might be fun for a bit, but we all know it's not going to end well for anyone except the monkey.
               </p>
             </div>
           </Col>
@@ -52,7 +52,7 @@ function Why() {
                 We don't know the exact solution yet but we want to start by acknowledging exchanges of real value in the real world so we can start to make the underlying 'real' social graph visible. 
               </p>
               <p className="lead">
-                Our strategy is to start offline first, find the real social graph, and then bring just enough of that online to help people collaborate and then. We'll see what happens..
+                Our strategy is to start offline first, find the real social graph, bring just enough of that online to help people do better work together. And then, we'll see what happens..
               </p>
             </div>
           </Col>
