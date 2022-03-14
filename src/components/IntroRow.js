@@ -18,7 +18,7 @@ function IntroRow() {
             <Col className="ml-auto mr-auto" md="12">
               
               <h4 className="description sub">
-                 A 100% open source collaboration between <a href="https://cashless.social">Cashless</a> and <a href="https://xchc.co.nz">Christchurch Exchange</a>
+                 A 100% open source collaboration between <a href="https://cashless.social">Cashless</a> and <a href="https://xchc.co.nz">XCHC (Exchange Christchurch)</a>
                </h4>
             </Col>
           </Row>

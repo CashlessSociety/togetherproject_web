@@ -27,7 +27,7 @@ function DefaultFooter() {
                   href="https://github.com/CashlessSociety"
                   target="_blank"
                 >
-                  Cashless Society
+                  Cashless
                 </a>
               </li>
               <li>|</li>
@@ -36,7 +36,7 @@ function DefaultFooter() {
                   href="https://xchc.co.nz/"
                   target="_blank"
                 >
-                  Christchurch Exchange
+                  XCHC (Exchange Christchurch)
                 </a>
               </li>
             </ul>
