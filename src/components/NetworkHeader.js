@@ -48,8 +48,8 @@ function NetworkHeader() {
             <div className="col-lg-2 col-md-2"></div>
             <div className="col-lg-8 col-md-8 overlay_panel">
                   <h1 className="title">Together</h1>
-                  <h3>We're building an <b>open-source</b> platform for connecting  <b>real world</b> artists
-                     and creators. Our unique focus is using <b>gratitude</b> as a doorway to mutuality and <b>meaningful belonging</b>.
+                  
+                  <h3>We're building an <b>open source</b> platform to help people <b>meaningfully&nbsp;connect</b> with projects that match their passions and skills.
                   </h3>
             </div>
             <div className="col-lg-2 col-md-2"></div>

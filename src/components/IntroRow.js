@@ -18,7 +18,7 @@ function IntroRow() {
             <Col className="ml-auto mr-auto" md="12">
               
               <h4 className="description sub">
-                 A 100% open source collaboration between <a href="https://cashless.social">Cashless</a> and <a href="https://xchc.co.nz">XCHC (Exchange Christchurch)</a>
+                 A collaboration between <a href="https://cashless.social">Cashless</a> and <a href="https://xchc.co.nz">XCHC (Exchange Christchurch)</a>
                </h4>
             </Col>
           </Row>
@@ -32,9 +32,7 @@ function IntroRow() {
                 <h4 className="info-title"> A simple app for working together</h4>
                
                   <p className="description">
-                    Find projects that interest you. Be notified when a 
-                     request is relevant to your skills or interests. 
-                     Gather people to help out on your projects! 
+                      Find projects that interest you. Be notified when a request is relevant to your skills or interests. Gather people to help out on your projects!
                     </p> 
               </div>
             </Col>
@@ -45,8 +43,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">Making gratitude visible.</h4>
                   <p className="description">
-                  Acknowledgements as a doorway to meaningful belonging. Helps new people to 
-                   feel visible and helps key contributors feel appreciated and reciprocated. 
+                  Communities build connections with gratitude. Gifts of kindnes helps new members feel visible and key creators to feel reciprocated and valued.
                   </p>
               </div>
             </Col>
@@ -56,10 +53,9 @@ function IntroRow() {
                   <i className="now-ui-icons ui-1_simple-remove nudge-right"></i>
                   <i className="now-ui-icons ui-2_like nudge-left"></i>
                 </div>
-                <h4 className="info-title">No to "optimizing engagement"</h4>
+                <h4 className="info-title">No "optimizing engagement"</h4>
                 <p className="description">
-                    Being open source means we're not trying to keep you on the app, we want 
-                     you out there, engaging with real people doing awesome things. 
+                   We're not trying to keep you on the app, we want you off the phone and taking part! Mutuality is our purpose, gratitude our currency, creativity your potential.
                 </p>
               </div>
             </Col>

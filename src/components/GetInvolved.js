@@ -16,13 +16,15 @@ function GetInvolved() {
             <Row>
               <Col lg="1"></Col>
               <Col lg="10">
-                <p>We're always open to new contributions but <b>right now we especially want to understand the problem space better</b> so we're looking for:
+                <p>We’re looking for “people like you” to help us with our mission. Join us, and shape the future of how people connect with their creative communities.</p>
+                <p>Right now we especially want to map and understand the 'problem space' better so we're looking for:
                 </p>
                 <ul>
-                <li><b>Artists</b> and creatives willing to work closely with us to explain your needs and help guide the creation of a platform that is most useful to you
+                <li><b>Artists</b> and creatives willing to work closely with us to talk through your collaborative process and help guide the creation of a platform that is most useful to you
                 </li>
-                <li><b>Designers</b> and developers who can help understand and capture those needs in user experience form - as mockups, figma designs and code.
+                <li><b>Designers</b> who can understand and capture those needs in user experience form - as mockups, figma designs and prototypes.
                 </li>
+                <li><b>Developers</b> who can help realise this vision</li>
                 <li><b>Beta testers</b> from XCHC who can help us test the project once it goes live.
                 </li>
                 </ul>
