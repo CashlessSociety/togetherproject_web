@@ -24,7 +24,7 @@ function Contributors() {
                 name="Miles Thompson"
                 title="Co-Summoner"
                 bio={
-                    <p>Technolgist, sociologist, optimist.</p>
+                    <p>Technologist, sociologist, optimist.</p>
                 }
                 init="Lower Hutt, NZ"
                 now="Kāpiti, NZ"
@@ -50,7 +50,7 @@ function Contributors() {
                 name="Dmitriy Ageyev"
                 title="Co-Summoner"
                 bio={
-                    <p>Community actvist, systems thinker, mobile developer.</p>
+                    <p>Community activist, systems thinker, mobile developer.</p>
                 }
                 init="Almaty, KZ"
                 now="Golden Bay, NZ"
