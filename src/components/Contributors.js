@@ -14,7 +14,7 @@ function Contributors() {
           <Row>
             <Col md="12">
               <h3 className="title text-center">Contributors</h3>
-              <p>At a time of global anxiety, it's refreshing to see people from four different continents coming together to create togetherness. Our key contributors (so far) are:</p>
+              <p>At a time of global anxiety, it's refreshing to see people hailing from four different continents coming together to create togetherness. Our key contributors (so far) are:</p>
             </Col>
           </Row>    
           <Row>
@@ -81,7 +81,7 @@ function Contributors() {
                   </p>
                 }
                 longBio={
-                  <p>Preston is the steward of <a href="https://www.xchc.co.nz/">XCHC</a>, a Global Shaper, and advisor/collaborator on creative projects across Aotearoa, the US, and the Cook Islands. He's passionate about developing alternative tools and models that enable artists to experiment with culture and have a greater positive influence on society. He's developing these alongside government, technology, and creative agencies.
+                  <p>Preston is the steward of <a href="https://www.xchc.co.nz/">XCHC</a>, a Global Shaper, and advisor/collaborator on creative projects across Aotearoa, the US, and the Cook Islands. He's passionate about developing alternative tools and models that enable artists to experiment with culture and have a greater positive influence on society.
                   </p>
                 }
                 init="Asheville, NC, USA"

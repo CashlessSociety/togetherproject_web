@@ -32,7 +32,7 @@ function IntroRow() {
                 <h4 className="info-title"> A simple app for working together</h4>
                
                   <p className="description">
-                      Find projects that interest you. Be notified when a request is relevant to your skills or interests. Gather people to help out on your projects!
+                      Join projects that interest you. Be notified when a request is relevant to your skills or interests. Gather people to help out on your projects!
                     </p> 
               </div>
             </Col>
@@ -41,9 +41,9 @@ function IntroRow() {
               <div className="icon icon-primary icon-circle">
                   <i className="now-ui-icons ui-2_favourite-28"></i>
                 </div>
-                <h4 className="info-title">Making gratitude visible.</h4>
+                <h4 className="info-title">Making gratitude <br /> visible.</h4>
                   <p className="description">
-                  Communities build connections with gratitude. Gifts of kindnes helps new members feel visible and key creators to feel reciprocated and valued.
+                  Communities build connections with gratitude. Gifts of kindness help new members feel visible and core team members reciprocated and valued.
                   </p>
               </div>
             </Col>
@@ -55,7 +55,7 @@ function IntroRow() {
                 </div>
                 <h4 className="info-title">No "optimizing engagement"</h4>
                 <p className="description">
-                   We're not trying to keep you on the app, we want you off the phone and taking part! Mutuality is our purpose, gratitude our currency, creativity your potential.
+                   Keeping it open source means we're not trying to lock you in. We want you out there doing awesome stuff. Mutuality is our purpose, gratitude our currency, creativity our potential.
                 </p>
               </div>
             </Col>

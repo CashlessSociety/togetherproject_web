@@ -159,7 +159,9 @@ h3.info-title {
       font-weight: 500 !important;
       margin:8px; //112px;
       height: auto;
-      font-size: 1.4em;
+      font-size: 1.41em;
+      margin: auto;
+      max-width:530px;
     } 
 
     h3 {
@@ -221,12 +223,57 @@ h3.info-title {
     background: rgba(0,0,0,0.2);
     padding: 0 0 1.2rem 0;
     @include md() {
-        padding: 0 1rem 1.2rem 1rem;
+        padding: 0 1rem 1.9rem 1rem;
     }
     margin-top: 3.4rem;
     margin-bottom: 2rem;
 }
 
+.collaboration {
+  .card-testimonial {
+    font-size: .9em;
+    @include md() {
+      margin-top: 0;
+      margin-bottom:0;
+    }
+    .card-description {
+      font-size: 1em;
+    }
+  }
+
+  .logo-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background: rgba(0,0,0,0.85);
+    padding: 10px 0;
+     
+    .logox {
+      width: 40%;
+      text-align: center;
+    }
+
+    .xchc-logo {
+      img {
+        margin-top:20px;
+        height: 35px;
+        width: auto;
+      }
+    }
+
+    .cashless-logo {
+      img {
+        height: 80px;
+        width: auto;
+      }
+    }
+
+ 
+
+
+  }
+}
   
 [class*="features-"],
 [class*="custom-features"],

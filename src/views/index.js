@@ -7,6 +7,7 @@ import DefaultFooter from "components/Footers/DefaultFooter.js";
 import NetworkHeader from "components/NetworkHeader";
 import IntroRow from "components/IntroRow.js";
 import Contributors from "components/Contributors.js";
+import Collaboration from "components/Collaboration";
 import Why from "components/Why.js";
 import GetInvolved from "components/GetInvolved.js";
 import CurrentStatus from "components/CurrentStatus.js";
@@ -39,6 +40,7 @@ function IndexPage() {
         <NetworkHeader />
         <IntroRow />
         <Contributors />
+        <Collaboration />
         <Why />
         <CurrentStatus />
         <GetInvolved />
