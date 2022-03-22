@@ -15,7 +15,7 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="https://github.com/cashlesssociety/togetherproject"
+                  href="https://github.com/cashlesssociety/together_app"
                   target="_blank"
                 >
                   Together Source Code
