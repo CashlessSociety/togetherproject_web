@@ -29,3 +29,29 @@ Or if you wanna just tweak things you can (maybe) start with[this sketch file](h
 
 **Node**
 (currently working with v16.14.2)
+
+## Deploying to github docs 
+
+In order to fit within the 'free' restrictions of google docs deployment to production is as follows 
+
+Make your changes and commit them as normal 
+
+```
+❯ npm start
+❯ git commit .
+```
+
+Update the /docs dir 
+
+```
+❯ git rm -rf docs
+❯ npm run build
+❯ git add -f docs
+```
+
+Push 
+```
+❯ git push 
+```
+
+Wait for github pages caching to update (takes a few minutes)
