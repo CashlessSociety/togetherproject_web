@@ -12,7 +12,7 @@ import { Container, Row, Col } from "reactstrap";
 function IntroRow() {
   return (
     <>
-      <div className="intro-row custom-features text-center">
+      <div id="intro-row" className="intro-row custom-features text-center">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="12">

@@ -10,6 +10,18 @@ import {
   Container
 } from "reactstrap";
 
+function scrollIntoViewAdjusted(element) {
+    var headerOffset = 40;
+    var elementPosition = element.getBoundingClientRect().top;
+    var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    console.log("scrolling to " + offsetPosition)
+    console.log(element)
+    window.scrollTo({
+         top: offsetPosition,
+         behavior: "smooth"
+    });
+}
+
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-at-top");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
@@ -80,8 +92,9 @@ function IndexNavbar() {
                             
              <NavItem>
                 <NavLink
-                  href="#contributors" onClick={(e) => {
-                    document.getElementById("video-header").scrollIntoView();
+                  href="#intro-row" onClick={(e) => {
+                    e.preventDefault();
+                    scrollIntoViewAdjusted(document.getElementById("intro-row"));
                     document.documentElement.classList.toggle("nav-open");
                   }}>
                   What
@@ -91,7 +104,8 @@ function IndexNavbar() {
               <NavItem>
                 <NavLink
                   href="#contributors" onClick={(e) => {
-                    document.getElementById("contributors").scrollIntoView();
+                    e.preventDefault();
+                    scrollIntoViewAdjusted(document.getElementById("contributors"));
                     document.documentElement.classList.toggle("nav-open");
                   }}>
                   Who
@@ -101,7 +115,8 @@ function IndexNavbar() {
               <NavItem>
                 <NavLink
                   href="#why" onClick={(e) => {
-                    document.getElementById("why").scrollIntoView();
+                    e.preventDefault();
+                    scrollIntoViewAdjusted(document.getElementById("why"));
                     document.documentElement.classList.toggle("nav-open");
                   }}>
                   Why
@@ -111,7 +126,8 @@ function IndexNavbar() {
               <NavItem>
                 <NavLink
                   href="#status" onClick={(e) => {
-                    document.getElementById("status").scrollIntoView();
+                    e.preventDefault();
+                    scrollIntoViewAdjusted(document.getElementById("status"));
                     document.documentElement.classList.toggle("nav-open");
                   }}>
                   Status
@@ -121,7 +137,8 @@ function IndexNavbar() {
               <NavItem>
                 <NavLink
                   href="#get-involved" onClick={(e) => {
-                    document.getElementById("get-involved").scrollIntoView();
+                    e.preventDefault();
+                    scrollIntoViewAdjusted(document.getElementById("get-involved"));
                     document.documentElement.classList.toggle("nav-open");
                   }}>
                   Get Involved
