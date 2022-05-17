@@ -11,6 +11,7 @@ import Collaboration from "components/Collaboration";
 import Why from "components/Why.js";
 import GetInvolved from "components/GetInvolved.js";
 import CurrentStatus from "components/CurrentStatus.js";
+import Blog from "components/Blog.js";
 import OpenGraphMetaTags from "components/OpenGraphMetaTags.js";
 
 function IndexPage() {
@@ -43,6 +44,7 @@ function IndexPage() {
         <Collaboration />
         <Why />
         <CurrentStatus />
+        <Blog />
         <GetInvolved />
         <DefaultFooter />
       </div>

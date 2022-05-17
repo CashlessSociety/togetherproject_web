@@ -134,6 +134,18 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
 
+
+              <NavItem>
+                <NavLink
+                  href="#blog" onClick={(e) => {
+                    e.preventDefault();
+                    scrollIntoViewAdjusted(document.getElementById("blog"));
+                    document.documentElement.classList.toggle("nav-open");
+                  }}>
+                  Blog
+                </NavLink>
+              </NavItem>
+
               <NavItem>
                 <NavLink
                   href="#get-involved" onClick={(e) => {
