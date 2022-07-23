@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.491297bb.chunk.css",
-    "main.js": "/static/js/main.732711fe.chunk.js",
-    "main.js.map": "/static/js/main.732711fe.chunk.js.map",
+    "main.js": "/static/js/main.2cf5166e.chunk.js",
+    "main.js.map": "/static/js/main.2cf5166e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48b5ae34.js",
     "runtime-main.js.map": "/static/js/runtime-main.48b5ae34.js.map",
     "static/css/2.17a4d41c.chunk.css": "/static/css/2.17a4d41c.chunk.css",
-    "static/js/2.b9fc0ca2.chunk.js": "/static/js/2.b9fc0ca2.chunk.js",
-    "static/js/2.b9fc0ca2.chunk.js.map": "/static/js/2.b9fc0ca2.chunk.js.map",
+    "static/js/2.77a038d6.chunk.js": "/static/js/2.77a038d6.chunk.js",
+    "static/js/2.77a038d6.chunk.js.map": "/static/js/2.77a038d6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.37d78c00a1391cfea804ab3b1f30bb7a.js": "/precache-manifest.37d78c00a1391cfea804ab3b1f30bb7a.js",
+    "precache-manifest.0d142f4dee2c66eea5b0d11d156198a4.js": "/precache-manifest.0d142f4dee2c66eea5b0d11d156198a4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.17a4d41c.chunk.css.map": "/static/css/2.17a4d41c.chunk.css.map",
     "static/css/main.491297bb.chunk.css.map": "/static/css/main.491297bb.chunk.css.map",
-    "static/js/2.b9fc0ca2.chunk.js.LICENSE.txt": "/static/js/2.b9fc0ca2.chunk.js.LICENSE.txt",
+    "static/js/2.77a038d6.chunk.js.LICENSE.txt": "/static/js/2.77a038d6.chunk.js.LICENSE.txt",
     "static/media/XCHC_Together_User_Personas.pdf": "/static/media/XCHC_Together_User_Personas.596e4d85.pdf",
     "static/media/cashless_logo_white.png": "/static/media/cashless_logo_white.7db2ee08.png",
     "static/media/clip-brainstorm.png": "/static/media/clip-brainstorm.3e698adb.png",
+    "static/media/courtney.png": "/static/media/courtney.a9668c25.png",
+    "static/media/courtney_img.jpg": "/static/media/courtney_img.8edf7e1a.jpg",
     "static/media/dmitriy.png": "/static/media/dmitriy.99ea8168.png",
     "static/media/dmitriy_img_2.jpg": "/static/media/dmitriy_img_2.1b29a7d0.jpg",
     "static/media/figma_mocks.png": "/static/media/figma_mocks.041de028.png",
@@ -41,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.48b5ae34.js",
     "static/css/2.17a4d41c.chunk.css",
-    "static/js/2.b9fc0ca2.chunk.js",
+    "static/js/2.77a038d6.chunk.js",
     "static/css/main.491297bb.chunk.css",
-    "static/js/main.732711fe.chunk.js"
+    "static/js/main.2cf5166e.chunk.js"
   ]
 }
