@@ -74,6 +74,29 @@ function Contributors() {
             <Col md="2"></Col>
             <Col md="4">
               <ContributorLarge 
+                  name="Courtney Beadel"
+                  title="UX Designer"
+                  bio={
+                      <p>UX content strategist, designer, composer.</p>
+                  }
+                  init="Davenport, IA, USA"
+                  now=" Minneapolis, MN, USA"
+                  profileUrl={require("assets/img/courtney.png")}
+                  flipProfileUrl={require("assets/img/courtney_img.jpg")}
+                  longBio={
+                    <p>Courtney got her start as a Drupal Solutions Architect specializing in accessible information design for public libraries. In 2014, she began to transition into roles focused on user experience and content design. An award-winning jazz composer, she loves working on projects that facilitate community and art.</p>
+                  }
+                  bioLinks={
+                    <>
+                      <a href="https://github.com/courtbee" rel="noopener noreferrer" target="_blank">
+                        <i className="fab fa-github"></i>
+                      </a>
+                    </>
+                  }
+                />
+              </Col>
+              <Col md="4">
+                <ContributorLarge 
                 name="Preston Hegel"
                 title="Exchange Operator"
                 bio={
@@ -97,7 +120,12 @@ function Contributors() {
                 }
               />
             </Col>
+            <Col md="2"></Col>
+          </Row>              
+          <Row>
+            <Col md="2"></Col>
             <Col md="4">
+              
               <ContributorLarge 
                 name="Jinxin Ma"
                 title="Flutter App Dev"
